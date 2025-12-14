@@ -73,7 +73,7 @@ export interface Project {
 // Portfolio data
 export const AUTHOR: Author = {
   _id: "author-1",
-  name: "Ramakant Singh Chouhan",
+  name: "Ram Chouhan",
   initials: "RSC",
   avatar: {
     asset: {
@@ -127,7 +127,7 @@ export const AUTHOR: Author = {
     "REST APIs"
   ],
   social: {
-    github: "https://github.com/distorion-12", // Update with your actual GitHub URL
+    github: "https://github.com/distortion-12", // Update with your actual GitHub URL
     linkedin: "https://www.linkedin.com/in/ramchouhan", // Update with your actual LinkedIn URL
     email: "ramchouhan045@gmail.com",
   },
