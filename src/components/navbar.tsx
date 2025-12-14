@@ -14,8 +14,6 @@ import {
   HomeIcon,
   LinkedinIcon,
   MailIcon,
-  TwitterIcon,
-  YoutubeIcon,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -56,11 +54,6 @@ export default async function Navbar() {
         <Separator orientation="vertical" className="h-full" />
         {[
           {
-            name: "Twitter",
-            icon: TwitterIcon,
-            url: author?.social?.twitter || "#",
-          },
-          {
             name: "GitHub",
             icon: GithubIcon,
             url: author?.social?.github || "#",
@@ -69,11 +62,6 @@ export default async function Navbar() {
             name: "LinkedIn",
             icon: LinkedinIcon,
             url: author?.social?.linkedin || "#",
-          },
-          {
-            name: "YouTube",
-            icon: YoutubeIcon,
-            url: author?.social?.youtube || "#",
           },
         ].map((social) => (
           <DockIcon key={social.name}>

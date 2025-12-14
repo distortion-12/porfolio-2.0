@@ -16,8 +16,6 @@ export interface Author {
   social?: {
     github?: string;
     linkedin?: string;
-    twitter?: string;
-    youtube?: string;
     email?: string;
   };
 }
@@ -129,8 +127,8 @@ export const AUTHOR: Author = {
     "REST APIs"
   ],
   social: {
-    github: "https://github.com/", // Update with your actual GitHub URL
-    linkedin: "https://linkedin.com/", // Update with your actual LinkedIn URL
+    github: "https://github.com/distorion-12", // Update with your actual GitHub URL
+    linkedin: "https://www.linkedin.com/in/ramchouhan", // Update with your actual LinkedIn URL
     email: "ramchouhan045@gmail.com",
   },
 };
