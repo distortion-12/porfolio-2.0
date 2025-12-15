@@ -1,4 +1,4 @@
-// Portfolio constants - All portfolio data in one place
+// Portfolio constants - All portfolio data
 
 export interface Author {
   _id: string;
@@ -198,7 +198,7 @@ export const PROJECTS: Project[] = [
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/distortion-12/eSports-Arena",
         type: "code",
       },
     ],
@@ -231,7 +231,7 @@ export const PROJECTS: Project[] = [
       },
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/distortion-12/Git-Repo-Visualizer-2.0",
         type: "code",
       },
     ],
@@ -259,7 +259,7 @@ export const PROJECTS: Project[] = [
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/distortion-12/Lyra-Virtual-Assistant",
         type: "code",
       },
     ],
@@ -287,7 +287,7 @@ export const PROJECTS: Project[] = [
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/distortion-12/EaseBookings",
         type: "code",
       },
     ],
@@ -315,7 +315,7 @@ export const PROJECTS: Project[] = [
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/distortion-12/FileEncryptor",
         type: "code",
       },
     ],
