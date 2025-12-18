@@ -176,29 +176,34 @@ export const EDUCATION: Education[] = [
 
 export const PROJECTS: Project[] = [
   {
-    _id: "project-1",
-    title: "eSports Live Platform",
+    _id: "project-6",
+    title: "Researcher.Hut",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "Full-stack web app for BGMI and PUBG esports. Features live match data, Firebase auth, real-time WebSocket updates, and admin dashboards.",
+            text: "Modern research article sharing platform with rich text editor, dark mode, search, ratings, comments, PDF/DOCX export, and anonymous stories section. Admin dashboard with OTP auth, content approval, and social sharing.",
           },
         ],
       },
     ],
-    technologies: ["Java Spring Boot", "React.JS", "MongoDB", "Firebase", "WebSocket", "Tailwind CSS"],
+    technologies: ["Next.js 14", "TypeScript", "Express.js", "Supabase", "PostgreSQL", "Tailwind CSS", "Tiptap", "Resend"],
     image: {
       asset: {
-        url: "/projects/bgmi.webp",
+        url: "/projects/Reasearch Hut.jpg",
       },
     },
     links: [
       {
+        title: "Live Demo",
+        url: "https://researcher-hut.vercel.app",
+        type: "link",
+      },
+      {
         title: "Source Code",
-        url: "https://github.com/distortion-12/eSports-Arena",
+        url: "https://github.com/distortion-12/researcher-hut",
         type: "code",
       },
     ],
@@ -237,29 +242,29 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    _id: "project-3",
-    title: "LYRA Voice Assistant",
+    _id: "project-1",
+    title: "eSports Live Platform",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "AI voice assistant with speech recognition, NLP, and API integrations for weather, web search, and task automation.",
+            text: "Full-stack web app for BGMI and PUBG esports. Features live match data, Firebase auth, real-time WebSocket updates, and admin dashboards.",
           },
         ],
       },
     ],
-    technologies: ["Python", "Speech Recognition", "NLP"],
+    technologies: ["Java Spring Boot", "React.JS", "MongoDB", "Firebase", "WebSocket", "Tailwind CSS"],
     image: {
       asset: {
-        url: "/projects/AI.jpe",
+        url: "/projects/bgmi.webp",
       },
     },
     links: [
       {
         title: "Source Code",
-        url: "https://github.com/distortion-12/Lyra-Virtual-Assistant",
+        url: "https://github.com/distortion-12/eSports-Arena",
         type: "code",
       },
     ],
@@ -293,6 +298,34 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    _id: "project-3",
+    title: "LYRA Voice Assistant",
+    description: [
+      {
+        _type: "block",
+        children: [
+          {
+            _type: "span",
+            text: "AI voice assistant with speech recognition, NLP, and API integrations for weather, web search, and task automation.",
+          },
+        ],
+      },
+    ],
+    technologies: ["Python", "Speech Recognition", "NLP"],
+    image: {
+      asset: {
+        url: "/projects/AI.jpe",
+      },
+    },
+    links: [
+      {
+        title: "Source Code",
+        url: "https://github.com/distortion-12/Lyra-Virtual-Assistant",
+        type: "code",
+      },
+    ],
+  },
+  {
     _id: "project-5",
     title: "File Encryptor-Decryptor",
     description: [
@@ -316,39 +349,6 @@ export const PROJECTS: Project[] = [
       {
         title: "Source Code",
         url: "https://github.com/distortion-12/FileEncryptor",
-        type: "code",
-      },
-    ],
-  },
-  {
-    _id: "project-6",
-    title: "Researcher.Hut",
-    description: [
-      {
-        _type: "block",
-        children: [
-          {
-            _type: "span",
-            text: "Modern research article sharing platform with rich text editor, dark mode, search, ratings, comments, PDF/DOCX export, and anonymous stories section. Admin dashboard with OTP auth, content approval, and social sharing.",
-          },
-        ],
-      },
-    ],
-    technologies: ["Next.js 14", "TypeScript", "Express.js", "Supabase", "PostgreSQL", "Tailwind CSS", "Tiptap", "Resend"],
-    image: {
-      asset: {
-        url: "/projects/Reasearch Hut.jpg",
-      },
-    },
-    links: [
-      {
-        title: "Live Demo",
-        url: "https://researcher-hut.vercel.app",
-        type: "link",
-      },
-      {
-        title: "Source Code",
-        url: "https://github.com/distortion-12/researcher-hut",
         type: "code",
       },
     ],
