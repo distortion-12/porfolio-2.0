@@ -49,11 +49,15 @@ export default async function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
+              <Avatar className="size-36 border-0 shadow-xl">
                 <AvatarImage
                   alt={author.name ?? ""}
                   src={author.avatar?.asset?.url ?? ""}
-                  className="object-cover"
+                  className="object-cover scale-98 rounded-full"
+                  style={{ 
+                    filter: 'contrast(1.05) brightness(1.02)',
+                    mixBlendMode: 'multiply'
+                  }}
                 />
                 <AvatarFallback>{author.initials}</AvatarFallback>
               </Avatar>

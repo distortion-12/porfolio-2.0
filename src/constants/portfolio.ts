@@ -77,7 +77,7 @@ export const AUTHOR: Author = {
   initials: "RSC",
   avatar: {
     asset: {
-      url: "https://avatars.githubusercontent.com/u/192520094?v=4",
+      url: "/img.png",
     },
   },
   description: [
