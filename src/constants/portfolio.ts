@@ -17,6 +17,7 @@ export interface Author {
     github?: string;
     linkedin?: string;
     email?: string;
+    instagram?: string;
   };
 }
 
@@ -103,10 +104,12 @@ export const AUTHOR: Author = {
     },
   ],
   location: "Indore, India",
+
+  // Skills section:
+
   skills: [
     "Java",
     "C++",
-    "Python",
     "SQL",
     "JavaScript",
     "HTML",
@@ -119,20 +122,19 @@ export const AUTHOR: Author = {
     "VS Code",
     "GitHub",
     "Git",
-    "DSA",
     "OOP",
     "DBMS",
-    "Cryptography",
-    "WebSocket",
     "REST APIs"
   ],
+  // Social Platforms links:
   social: {
-    github: "https://github.com/distortion-12", // Update with your actual GitHub URL
-    linkedin: "https://www.linkedin.com/in/ramchouhan", // Update with your actual LinkedIn URL
+    github: "https://github.com/distortion-12", 
     email: "ramchouhan045@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ramchouhan", 
+    instagram: "https://www.instagram.com/ram_12.01",
   },
 };
-
+// Work Experience section:
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     _id: "work-1",
@@ -164,6 +166,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ];
 
+// Education section:
 export const EDUCATION: Education[] = [
   {
     _id: "edu-1",
@@ -174,6 +177,7 @@ export const EDUCATION: Education[] = [
   },
 ];
 
+// Projects section:
 export const PROJECTS: Project[] = [
   {
     _id: "project-6",
@@ -189,7 +193,7 @@ export const PROJECTS: Project[] = [
         ],
       },
     ],
-    technologies: ["Next.js 14", "TypeScript", "Express.js", "Supabase", "PostgreSQL", "Tailwind CSS", "Tiptap", "Resend"],
+    technologies: ["Next.js 14", "TypeScript", "Express.js", "Supabase", "PostgreSQL", "Tailwind CSS", "Resend"],
     image: {
       asset: {
         url: "/projects/Reasearch Hut.jpg",
@@ -255,7 +259,7 @@ export const PROJECTS: Project[] = [
         ],
       },
     ],
-    technologies: ["Java Spring Boot", "React.JS", "MongoDB", "Firebase", "WebSocket", "Tailwind CSS"],
+    technologies: ["MongoDB (Database)","Express.js (Backend Framework)","React (Frontend Library)","Node.js (Runtime Environment)","JWT (Authentication)"],
     image: {
       asset: {
         url: "/projects/bgmi.webp",
