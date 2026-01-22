@@ -48,7 +48,7 @@ export default async function Navbar() {
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
-                  {...('download' in item && item.download ? { target: "_blank" } : {})}
+                  {...('download' in item && item.download ? { download: true, target: "_blank", rel: "noopener noreferrer" } : {})}
                 >
                   <item.icon className="size-4" />
                 </Link>
