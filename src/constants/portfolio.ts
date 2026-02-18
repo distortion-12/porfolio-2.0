@@ -303,7 +303,7 @@ export const PROJECTS: Project[] = [
   },
   {
     _id: "project-3",
-    title: "LYRA Voice Assistant",
+    title: "Virtual Assistant",
     description: [
       {
         _type: "block",
