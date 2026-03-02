@@ -180,6 +180,39 @@ export const EDUCATION: Education[] = [
 // Projects section:
 export const PROJECTS: Project[] = [
   {
+    _id: "project-7",
+    title: "ProjectNexus",
+    description: [
+      {
+        _type: "block",
+        children: [
+          {
+            _type: "span",
+            text: "Student-first SaaS marketplace platform connecting students to build projects together, buy innovative solutions, and hire talent. Empowers collaboration and project success in the student community.",
+          },
+        ],
+      },
+    ],
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "SaaS Platform"],
+    image: {
+      asset: {
+        url: "/projects/projectnexux.png",
+      },
+    },
+    links: [
+      {
+        title: "Live Now",
+        url: "https://project-nexus-wala.vercel.app/",
+        type: "link",
+      },
+      {
+        title: "Source Code",
+        url: "https://github.com/distortion-12/Project-Helper",
+        type: "code",
+      },
+    ],
+  },
+  {
     _id: "project-6",
     title: "Researcher.Hut",
     description: [
@@ -201,7 +234,7 @@ export const PROJECTS: Project[] = [
     },
     links: [
       {
-        title: "Live Demo",
+        title: "Live Now",
         url: "https://researcher-hut.vercel.app",
         type: "link",
       },
@@ -234,7 +267,7 @@ export const PROJECTS: Project[] = [
     },
     links: [
       {
-        title: "Live Demo",
+        title: "Live Now",
         url: "https://git-repo-visualizer.netlify.app/",
         type: "link",
       },
